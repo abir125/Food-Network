@@ -1,33 +1,64 @@
-body{
-    font-family: 'Kanit', sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
 }
-h1{
-    font-size: 60px;
-    color: rgb(65, 62, 62);
+h1 {
+    font-weight:750;
 }
-.orang-color{
-    color: rgb(228, 165, 48);
+
+.pink {
+    color:rgb(252, 70, 100);
 }
-.half-width{
-    width: 50%;
-    padding: 5%;
-}
-.flexible-container{
+.first-section {
     display: flex;
-    margin-bottom: 150px;
+    background-position: right;
+    background-size: cover;
+    height: 570px;
+    width: 100%;
 }
-.img-size{
-    width: 400px;
-}
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
-    color: wheat;
-    font-weight: 700;
-    border-radius: 10px;
-}
-.top-banner{
+.second-section {
+    display: flex;
     background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+   padding-top: 5%;
+}
+.third-section {
+    display: flex;
+    
+    
+}
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+.anchor {
+    color: white;
+    background-image: linear-gradient(orange, orangered);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.divine {
+    padding: 2%;
+    margin: 3%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    
+}
+.text-align {
+    text-align: center;
+}
+.footer {
+    color: white;
+    background-color: rgb(240, 108, 56);
+    padding: 20px;
+   margin: 0;
+}
+.follower {
+    text-align: center;
+    padding: 0 8%;
+    
 }
